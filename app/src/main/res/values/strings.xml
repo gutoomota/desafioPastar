@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VideoStream</string>
+    <string name="action_settings">Settings</string>
+    <string name="chat">Chat</string>
+    <string name="entrar">Entrar</string>
+    <string name="insNome">Apelido</string>
+</resources>
