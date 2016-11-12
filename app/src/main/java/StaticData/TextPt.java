@@ -5,7 +5,8 @@ package StaticData;
  */
 public class TextPt {
     final static String[] error = {
-            "Insira um nome"
+            "Insira um nome",
+            "O chat não está funcionando :("
     };
     public static String getErrorByPosition(int i) {
         return error[i];

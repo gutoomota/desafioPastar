@@ -10,23 +10,25 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.MediaController;
+import android.widget.Toast;
 import android.widget.VideoView;
 
+import StaticData.TextPt;
+
 public class Chat extends Activity {
-    Button btChat;
     /* (non-Javadoc) * @see android.app.Activity#onCreate(android.os.Bundle)*/
+    Button btSend;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.video);
+        setContentView(R.layout.chat);
 
-        btChat = (Button) findViewById(R.id.btChat);
-        Intent i = getIntent();
+        btSend = (Button) findViewById(R.id.btEnviar);
 
-        btChat.setOnClickListener(new View.OnClickListener() {
+        btSend.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-
+                Toast.makeText(Chat.this, TextPt.getErrorByPosition(1), Toast.LENGTH_LONG).show();
             }
         });
     }

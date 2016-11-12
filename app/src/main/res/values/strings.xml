@@ -3,5 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="chat">Chat</string>
     <string name="entrar">Entrar</string>
+    <string name="enviar">Send</string>
     <string name="insNome">Apelido</string>
+    <string name="texto">...</string>
 </resources>

@@ -11,7 +11,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.MediaController;
+import android.widget.Toast;
 import android.widget.VideoView;
+
+import StaticData.TextPt;
 
 public class Show extends Activity {
     Button btChat;
