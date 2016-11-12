@@ -6,7 +6,7 @@ O Streamming ta feito por aplicativo android nativo, caso queira modificar o ví
 
 A página inicial pede um apelido (que seria para o chat) e um botão de entrar que só entra depois de ter um apelido como entrada.
 A segunda página é a de streamming de vídeo.
-A terceira página seria o chat que está apenas com a activity.
+A terceira página seria o chat que está apenas com o layout, mas sem funcionalidades.
 
 att,
 Mário A M Martins
